@@ -1,0 +1,202 @@
+html{
+    font-family: 'Raleway', sans-serif;   
+}
+
+.row{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: #56585E;
+}
+
+h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: #56585E;
+}
+
+h5{
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    font-weight: 600;
+    color: #56585E;
+}
+
+p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 2.9rem;
+    color: #56585E;
+}
+
+/*-----------------------------------ROW 1-------------------------*/
+#row1{
+    margin-top: -2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #62656C;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+nav a{
+    font-size: 01rem;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+}
+
+nav a:hover{
+    color: #81B9DF;
+    transition-duration: 0.5s;
+}
+
+.navcontainer{
+    visibility: hidden;
+}
+
+#navbtn{
+    border: none;
+    border-radius: 1rem;
+    width: 4rem;
+    color: #ffffff;
+    background-color:#62656C;
+    font-size: 3rem;
+    position: fixed;
+    cursor: pointer;
+}
+
+.closebtn{
+}
+
+
+/*-----------------------------------ROW 2-------------------------*/
+
+#row2{
+    background-color: #ECECEC;   
+    margin-top: -4.1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#name{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    text-align:left;
+    color: #56585E;
+    text-align: center;
+}
+
+#title{
+    font-size: 1.7rem;
+    letter-spacing: 0.5rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    color: #56585E;
+    text-align:center;
+}
+
+
+#merow{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#imgcontainer{
+    text-align: center;
+
+}
+
+#me{
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    
+}
+
+#cimg{
+    width:15%;
+
+}
+
+#cimg:hover{
+    transform: scale(1.3);
+    transition-duration: 0.5s;
+}
+
+/*-----------------------------------ROW 3-------------------------*/
+
+/*-----------------------------------ROW 4-------------------------*/
+#row4 p{
+    text-align: center;
+}
+#container4{
+    text-align: center;
+}
+#aboutimg{
+    width: 20%;
+}
+
+/*-----------------------------------ROW 5-------------------------*/
+#row5{
+    background-color: #ECECEC;   
+}
+
+#expimg{
+    width: 15%;
+}
+
+/*-----------------------------------ROW 6-------------------------*/
+#skillimg{
+    width: 15%;
+}
+/*-----------------------------------ROW 7-------------------------*/
+/*-----------------------------------ROW 8-------------------------*/
+#row8{
+    background-color: #ECECEC; 
+    text-align: center;
+}
+
+#email{
+    width: 10%;
+}
+
+#email:hover{
+    transform: scale(1.3);
+    transition-duration: 0.5s;
+}
+
+/*-----------------------------------ROW 9-------------------------*/
+#row9{
+    background-color: 
+}
+
+#footer{
+    background-color: #62656C;
+    font-size: 0.8rem; 
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+    text-align: right;
+}
+
